@@ -3,8 +3,10 @@ Iniciar o projeto Django
 
 python -m venv venv
 . venv/bin/activate
+. venv/Scripts/Activate
 pip install django
 django-admin startproject project .
+python manage.py startapp contact
 
 
 
@@ -18,3 +20,7 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
+
+# Comando para upar
+git push origin main -u (para primeira vez usa -u)
+git push origin main
